@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mocha',
+1 verbose cli   'ganache-cli',
+1 verbose cli   'web3' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mocha@^9.1.2
+8 silly fetchPackageMetaData ganache-cli@^6.12.2
+9 silly fetchPackageMetaData web3@^1.6.0
+10 silly fetchNamedPackageData mocha
+11 silly mapToRegistry name mocha
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/mocha
+15 silly fetchNamedPackageData ganache-cli
+16 silly mapToRegistry name ganache-cli
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/ganache-cli
+20 silly fetchNamedPackageData web3
+21 silly mapToRegistry name web3
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/web3
+25 verbose request uri https://registry.npmjs.org/web3
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 7:31:15 AM
+28 verbose request id f60de14aa15aa143
+29 verbose etag W/"8639f09efc76997daa0a5f44fa87cd9b"
+30 verbose lastModified Tue, 28 Jun 2022 23:02:45 GMT
+31 http request GET https://registry.npmjs.org/web3
+32 verbose request uri https://registry.npmjs.org/ganache-cli
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 7:31:15 AM
+35 verbose etag W/"111e0b83ab6636d1dfdddd8569951aa0"
+36 verbose lastModified Thu, 16 Jun 2022 16:45:29 GMT
+37 http request GET https://registry.npmjs.org/ganache-cli
+38 verbose request uri https://registry.npmjs.org/mocha
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 7:31:15 AM
+41 verbose etag W/"71683f2739f57698f41c026450e89861"
+42 verbose lastModified Mon, 20 Jun 2022 01:14:46 GMT
+43 http request GET https://registry.npmjs.org/mocha
+44 http 304 https://registry.npmjs.org/mocha
+45 verbose headers { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'cf-ray': '725890435ce9b45b-HKG',
+45 verbose headers   age: '92',
+45 verbose headers   'cache-control': 'public, max-age=300',
+45 verbose headers   etag: '"71683f2739f57698f41c026450e89861"',
+45 verbose headers   'last-modified': 'Mon, 20 Jun 2022 01:14:46 GMT',
+45 verbose headers   vary: 'Accept-Encoding',
+45 verbose headers   'cf-cache-status': 'HIT',
+45 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 verbose headers   'x-amz-replication-status': 'COMPLETED',
+45 verbose headers   server: 'cloudflare' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+46 silly get     connection: 'keep-alive',
+46 silly get     'cf-ray': '725890435ce9b45b-HKG',
+46 silly get     age: '92',
+46 silly get     'cache-control': 'public, max-age=300',
+46 silly get     etag: '"71683f2739f57698f41c026450e89861"',
+46 silly get     'last-modified': 'Mon, 20 Jun 2022 01:14:46 GMT',
+46 silly get     vary: 'Accept-Encoding',
+46 silly get     'cf-cache-status': 'HIT',
+46 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 silly get     'x-amz-replication-status': 'COMPLETED',
+46 silly get     server: 'cloudflare' } ]
+47 verbose etag https://registry.npmjs.org/mocha from cache
+48 verbose get saving mocha to /home/tung/.npm/registry.npmjs.org/mocha/.cache.json
+49 http 304 https://registry.npmjs.org/web3
+50 verbose headers { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+50 verbose headers   connection: 'keep-alive',
+50 verbose headers   'cf-ray': '725890438e133dac-HKG',
+50 verbose headers   age: '298',
+50 verbose headers   'cache-control': 'public, max-age=300',
+50 verbose headers   etag: '"8639f09efc76997daa0a5f44fa87cd9b"',
+50 verbose headers   'last-modified': 'Tue, 28 Jun 2022 23:02:45 GMT',
+50 verbose headers   vary: 'Accept-Encoding',
+50 verbose headers   'cf-cache-status': 'HIT',
+50 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+50 verbose headers   'x-amz-replication-status': 'COMPLETED',
+50 verbose headers   server: 'cloudflare' }
+51 silly get cb [ 304,
+51 silly get   { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+51 silly get     connection: 'keep-alive',
+51 silly get     'cf-ray': '725890438e133dac-HKG',
+51 silly get     age: '298',
+51 silly get     'cache-control': 'public, max-age=300',
+51 silly get     etag: '"8639f09efc76997daa0a5f44fa87cd9b"',
+51 silly get     'last-modified': 'Tue, 28 Jun 2022 23:02:45 GMT',
+51 silly get     vary: 'Accept-Encoding',
+51 silly get     'cf-cache-status': 'HIT',
+51 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+51 silly get     'x-amz-replication-status': 'COMPLETED',
+51 silly get     server: 'cloudflare' } ]
+52 verbose etag https://registry.npmjs.org/web3 from cache
+53 verbose get saving web3 to /home/tung/.npm/registry.npmjs.org/web3/.cache.json
+54 http 304 https://registry.npmjs.org/ganache-cli
+55 verbose headers { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'cf-ray': '725890437b528b5d-HKG',
+55 verbose headers   age: '92',
+55 verbose headers   'cache-control': 'public, max-age=300',
+55 verbose headers   etag: '"111e0b83ab6636d1dfdddd8569951aa0"',
+55 verbose headers   'last-modified': 'Thu, 16 Jun 2022 16:45:29 GMT',
+55 verbose headers   vary: 'Accept-Encoding',
+55 verbose headers   'cf-cache-status': 'HIT',
+55 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+55 verbose headers   'x-amz-replication-status': 'COMPLETED',
+55 verbose headers   server: 'cloudflare' }
+56 silly get cb [ 304,
+56 silly get   { date: 'Mon, 04 Jul 2022 14:31:15 GMT',
+56 silly get     connection: 'keep-alive',
+56 silly get     'cf-ray': '725890437b528b5d-HKG',
+56 silly get     age: '92',
+56 silly get     'cache-control': 'public, max-age=300',
+56 silly get     etag: '"111e0b83ab6636d1dfdddd8569951aa0"',
+56 silly get     'last-modified': 'Thu, 16 Jun 2022 16:45:29 GMT',
+56 silly get     vary: 'Accept-Encoding',
+56 silly get     'cf-cache-status': 'HIT',
+56 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+56 silly get     'x-amz-replication-status': 'COMPLETED',
+56 silly get     server: 'cloudflare' } ]
+57 verbose etag https://registry.npmjs.org/ganache-cli from cache
+58 verbose get saving ganache-cli to /home/tung/.npm/registry.npmjs.org/ganache-cli/.cache.json
+59 silly install normalizeTree
+60 silly loadCurrentTree Finishing
+61 silly loadIdealTree Starting
+62 silly install loadIdealTree
+63 silly cloneCurrentTree Starting
+64 silly install cloneCurrentTreeToIdealTree
+65 silly cloneCurrentTree Finishing
+66 silly loadShrinkwrap Starting
+67 silly install loadShrinkwrap
+68 silly loadShrinkwrap Finishing
+69 silly loadAllDepsIntoIdealTree Starting
+70 silly install loadAllDepsIntoIdealTree
+71 verbose stack Error: Missing required argument #1
+71 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+71 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+71 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+71 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+71 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+71 verbose stack     at Array.forEach (<anonymous>)
+71 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+71 verbose stack     at Array.forEach (<anonymous>)
+71 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+71 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+72 verbose cwd /home/tung/workspace/Inbox
+73 error Linux 5.4.0-121-generic
+74 error argv "/usr/bin/node" "/usr/bin/npm" "install" "mocha" "ganache-cli" "web3"
+75 error node v8.10.0
+76 error npm  v3.5.2
+77 error code EMISSINGARG
+78 error typeerror Error: Missing required argument #1
+78 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+78 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+78 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+78 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+78 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+78 error typeerror     at Array.forEach (<anonymous>)
+78 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+78 error typeerror     at Array.forEach (<anonymous>)
+78 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+78 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+79 error typeerror This is an error with npm itself. Please report this error at:
+79 error typeerror     <http://github.com/npm/npm/issues>
+80 verbose exit [ 1, true ]
